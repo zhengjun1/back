@@ -8,6 +8,9 @@ import 'iview/dist/styles/iview.css'
 import elementUi from "element-ui"
 import "element-ui/lib/theme-chalk/index.css"
 
+import axios from 'axios'
+Vue.prototype.$axios = axios;
+
 Vue.use(iView)
 Vue.use(elementUi)
 
